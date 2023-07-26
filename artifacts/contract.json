@@ -1,0 +1,38 @@
+{
+    "name": "DemoApp",
+    "methods": [
+        {
+            "name": "create_application",
+            "args": [
+                {
+                    "type": "uint64",
+                    "name": "global_num_uints"
+                },
+                {
+                    "type": "uint64",
+                    "name": "global_num_byte_slices"
+                },
+                {
+                    "type": "uint64",
+                    "name": "local_num_uints"
+                },
+                {
+                    "type": "uint64",
+                    "name": "local_num_byte_slices"
+                },
+                {
+                    "type": "string",
+                    "name": "approval_program"
+                },
+                {
+                    "type": "string",
+                    "name": "clear_state_program"
+                }
+            ],
+            "returns": {
+                "type": "uint64"
+            }
+        }
+    ],
+    "networks": {}
+}

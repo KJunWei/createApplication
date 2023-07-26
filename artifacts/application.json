@@ -1,0 +1,77 @@
+{
+    "hints": {
+        "create_application(uint64,uint64,uint64,uint64,string,string)uint64": {
+            "call_config": {
+                "no_op": "CALL"
+            }
+        }
+    },
+    "source": {
+        "approval": "I3ByYWdtYSB2ZXJzaW9uIDgKaW50Y2Jsb2NrIDAgMQp0eG4gTnVtQXBwQXJncwppbnRjXzAgLy8gMAo9PQpibnogbWFpbl9sNAp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweGNkNzM1Y2UzIC8vICJjcmVhdGVfYXBwbGljYXRpb24odWludDY0LHVpbnQ2NCx1aW50NjQsdWludDY0LHN0cmluZyxzdHJpbmcpdWludDY0Igo9PQpibnogbWFpbl9sMwplcnIKbWFpbl9sMzoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQpidG9pCnN0b3JlIDAKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMgpidG9pCnN0b3JlIDEKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMwpidG9pCnN0b3JlIDIKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgNApidG9pCnN0b3JlIDMKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgNQpzdG9yZSA0CnR4bmEgQXBwbGljYXRpb25BcmdzIDYKc3RvcmUgNQpsb2FkIDAKbG9hZCAxCmxvYWQgMgpsb2FkIDMKbG9hZCA0CmxvYWQgNQpjYWxsc3ViIGNyZWF0ZWFwcGxpY2F0aW9uXzQKc3RvcmUgNgpwdXNoYnl0ZXMgMHgxNTFmN2M3NSAvLyAweDE1MWY3Yzc1CmxvYWQgNgppdG9iCmNvbmNhdApsb2cKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDQ6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KYm56IG1haW5fbDEyCnR4biBPbkNvbXBsZXRpb24KaW50Y18xIC8vIE9wdEluCj09CmJueiBtYWluX2wxMQp0eG4gT25Db21wbGV0aW9uCnB1c2hpbnQgMiAvLyBDbG9zZU91dAo9PQpibnogbWFpbl9sMTAKdHhuIE9uQ29tcGxldGlvbgpwdXNoaW50IDUgLy8gRGVsZXRlQXBwbGljYXRpb24KPT0KYm56IG1haW5fbDkKZXJyCm1haW5fbDk6CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCiE9CmFzc2VydApjYWxsc3ViIGRlbGV0ZV8zCmludGNfMSAvLyAxCnJldHVybgptYWluX2wxMDoKdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KYXNzZXJ0CmNhbGxzdWIgY2xvc2VvdXRfMgppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sMTE6CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCiE9CmFzc2VydApjYWxsc3ViIG9wdGluXzEKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDEyOgp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAo9PQphc3NlcnQKY2FsbHN1YiBjcmVhdGVfMAppbnRjXzEgLy8gMQpyZXR1cm4KCi8vIGNyZWF0ZQpjcmVhdGVfMDoKcHJvdG8gMCAwCnJldHN1YgoKLy8gb3B0X2luCm9wdGluXzE6CnByb3RvIDAgMApyZXRzdWIKCi8vIGNsb3NlX291dApjbG9zZW91dF8yOgpwcm90byAwIDAKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBkZWxldGUKZGVsZXRlXzM6CnByb3RvIDAgMAp0eG4gU2VuZGVyCmdsb2JhbCBDcmVhdG9yQWRkcmVzcwo9PQovLyB1bmF1dGhvcml6ZWQKYXNzZXJ0CmludGNfMSAvLyAxCnJldHVybgoKLy8gY3JlYXRlX2FwcGxpY2F0aW9uCmNyZWF0ZWFwcGxpY2F0aW9uXzQ6CnByb3RvIDYgMQppbnRjXzAgLy8gMAppdHhuX2JlZ2luCnB1c2hpbnQgNiAvLyBhcHBsCml0eG5fZmllbGQgVHlwZUVudW0KZnJhbWVfZGlnIC02Cml0eG5fZmllbGQgR2xvYmFsTnVtVWludApmcmFtZV9kaWcgLTUKaXR4bl9maWVsZCBHbG9iYWxOdW1CeXRlU2xpY2UKZnJhbWVfZGlnIC00Cml0eG5fZmllbGQgTG9jYWxOdW1VaW50CmZyYW1lX2RpZyAtMwppdHhuX2ZpZWxkIExvY2FsTnVtQnl0ZVNsaWNlCmZyYW1lX2RpZyAtMgpleHRyYWN0IDIgMAppdHhuX2ZpZWxkIEFwcHJvdmFsUHJvZ3JhbQpmcmFtZV9kaWcgLTEKZXh0cmFjdCAyIDAKaXR4bl9maWVsZCBDbGVhclN0YXRlUHJvZ3JhbQppdHhuX3N1Ym1pdAppdHhuIENyZWF0ZWRBcHBsaWNhdGlvbklECmZyYW1lX2J1cnkgMApyZXRzdWI=",
+        "clear": "I3ByYWdtYSB2ZXJzaW9uIDgKcHVzaGludCAwIC8vIDAKcmV0dXJu"
+    },
+    "state": {
+        "global": {
+            "num_byte_slices": 0,
+            "num_uints": 0
+        },
+        "local": {
+            "num_byte_slices": 0,
+            "num_uints": 0
+        }
+    },
+    "schema": {
+        "global": {
+            "declared": {},
+            "reserved": {}
+        },
+        "local": {
+            "declared": {},
+            "reserved": {}
+        }
+    },
+    "contract": {
+        "name": "DemoApp",
+        "methods": [
+            {
+                "name": "create_application",
+                "args": [
+                    {
+                        "type": "uint64",
+                        "name": "global_num_uints"
+                    },
+                    {
+                        "type": "uint64",
+                        "name": "global_num_byte_slices"
+                    },
+                    {
+                        "type": "uint64",
+                        "name": "local_num_uints"
+                    },
+                    {
+                        "type": "uint64",
+                        "name": "local_num_byte_slices"
+                    },
+                    {
+                        "type": "string",
+                        "name": "approval_program"
+                    },
+                    {
+                        "type": "string",
+                        "name": "clear_state_program"
+                    }
+                ],
+                "returns": {
+                    "type": "uint64"
+                }
+            }
+        ],
+        "networks": {}
+    },
+    "bare_call_config": {
+        "close_out": "CALL",
+        "delete_application": "CALL",
+        "no_op": "CREATE",
+        "opt_in": "CALL"
+    }
+}
