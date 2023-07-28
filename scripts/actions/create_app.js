@@ -44,17 +44,28 @@ const algodClient = getAlgodClient();
   );
   const clearProgram = await getBasicProgramBytes("../../artifacts/clear.teal");
 
+  const boxKey = new Uint8Array(Buffer.from('accounts'))
   // create NFT
   const txn1 = [
     {
       method: getMethodByName("create_application"),
       methodArgs: [
-        1,
-        1,
-        1,
-        1,
-        approvalProgram,
-        clearProgram
+        1, // global_num_uints
+        1, // global_num_byte_slices
+        1, // local_num_uints
+        1, // local_num_byte_slices
+        approvalProgram, // approval_program
+        clearProgram, // clear_state_program
+        1, // extra_program_pages
+      ],
+      appAccounts: [creator.addr], // accounts
+      appForeignAssets: [], // assets
+      appForeignApps: [1022], // applications
+      boxes: [ // to edit the box within the smart contract
+        {
+          appIndex: 0,
+          name: boxKey
+        }
       ],
       ...commonParams,
     },
